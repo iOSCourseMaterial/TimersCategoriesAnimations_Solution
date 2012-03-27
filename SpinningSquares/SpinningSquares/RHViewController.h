@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RHViewController : UIViewController
+#define kTimerPeriod 1.0
+#define kNumViewsPerRow 6
+
+@interface RHViewController : UIViewController {
+    @private 
+    NSInteger _numViewsInRow;
+}
+
+- (void)timerEvent:(NSTimer *)timer;
 
 @end

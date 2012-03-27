@@ -15,6 +15,7 @@
 		920C440B152148E500663222 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C440A152148E500663222 /* RHAppDelegate.m */; };
 		920C440E152148E500663222 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C440D152148E500663222 /* RHViewController.m */; };
 		920C4411152148E500663222 /* RHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920C440F152148E500663222 /* RHViewController.xib */; };
+		920C441D15214FD200663222 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C441C15214FD200663222 /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		920C440C152148E500663222 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
 		920C440D152148E500663222 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
 		920C4410152148E500663222 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController.xib; sourceTree = "<group>"; };
+		920C441B15214FD200663222 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		920C441C15214FD200663222 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				920C440A152148E500663222 /* RHAppDelegate.m */,
 				920C440C152148E500663222 /* RHViewController.h */,
 				920C440D152148E500663222 /* RHViewController.m */,
+				920C441B15214FD200663222 /* UIColor+RandomColor.h */,
+				920C441C15214FD200663222 /* UIColor+RandomColor.m */,
 				920C440F152148E500663222 /* RHViewController.xib */,
 				920C4401152148E500663222 /* Supporting Files */,
 			);
@@ -164,6 +169,7 @@
 				920C4407152148E500663222 /* main.m in Sources */,
 				920C440B152148E500663222 /* RHAppDelegate.m in Sources */,
 				920C440E152148E500663222 /* RHViewController.m in Sources */,
+				920C441D15214FD200663222 /* UIColor+RandomColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				920C4416152148E500663222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
