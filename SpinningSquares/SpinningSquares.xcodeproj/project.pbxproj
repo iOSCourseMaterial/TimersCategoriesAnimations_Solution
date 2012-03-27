@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920C43FB152148E500663222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C43FA152148E500663222 /* UIKit.framework */; };
+		920C43FD152148E500663222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C43FC152148E500663222 /* Foundation.framework */; };
+		920C43FF152148E500663222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920C43FE152148E500663222 /* CoreGraphics.framework */; };
+		920C4405152148E500663222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920C4403152148E500663222 /* InfoPlist.strings */; };
+		920C4407152148E500663222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C4406152148E500663222 /* main.m */; };
+		920C440B152148E500663222 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C440A152148E500663222 /* RHAppDelegate.m */; };
+		920C440E152148E500663222 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C440D152148E500663222 /* RHViewController.m */; };
+		920C4411152148E500663222 /* RHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920C440F152148E500663222 /* RHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		920C43F6152148E500663222 /* SpinningSquares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinningSquares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920C43FA152148E500663222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		920C43FC152148E500663222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		920C43FE152148E500663222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		920C4402152148E500663222 /* SpinningSquares-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinningSquares-Info.plist"; sourceTree = "<group>"; };
+		920C4404152148E500663222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		920C4406152148E500663222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920C4408152148E500663222 /* SpinningSquares-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinningSquares-Prefix.pch"; sourceTree = "<group>"; };
+		920C4409152148E500663222 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		920C440A152148E500663222 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		920C440C152148E500663222 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
+		920C440D152148E500663222 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
+		920C4410152148E500663222 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920C43F3152148E500663222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C43FB152148E500663222 /* UIKit.framework in Frameworks */,
+				920C43FD152148E500663222 /* Foundation.framework in Frameworks */,
+				920C43FF152148E500663222 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920C43EB152148E500663222 = {
+			isa = PBXGroup;
+			children = (
+				920C4400152148E500663222 /* SpinningSquares */,
+				920C43F9152148E500663222 /* Frameworks */,
+				920C43F7152148E500663222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920C43F7152148E500663222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920C43F6152148E500663222 /* SpinningSquares.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920C43F9152148E500663222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				920C43FA152148E500663222 /* UIKit.framework */,
+				920C43FC152148E500663222 /* Foundation.framework */,
+				920C43FE152148E500663222 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920C4400152148E500663222 /* SpinningSquares */ = {
+			isa = PBXGroup;
+			children = (
+				920C4409152148E500663222 /* RHAppDelegate.h */,
+				920C440A152148E500663222 /* RHAppDelegate.m */,
+				920C440C152148E500663222 /* RHViewController.h */,
+				920C440D152148E500663222 /* RHViewController.m */,
+				920C440F152148E500663222 /* RHViewController.xib */,
+				920C4401152148E500663222 /* Supporting Files */,
+			);
+			path = SpinningSquares;
+			sourceTree = "<group>";
+		};
+		920C4401152148E500663222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920C4402152148E500663222 /* SpinningSquares-Info.plist */,
+				920C4403152148E500663222 /* InfoPlist.strings */,
+				920C4406152148E500663222 /* main.m */,
+				920C4408152148E500663222 /* SpinningSquares-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920C43F5152148E500663222 /* SpinningSquares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920C4414152148E500663222 /* Build configuration list for PBXNativeTarget "SpinningSquares" */;
+			buildPhases = (
+				920C43F2152148E500663222 /* Sources */,
+				920C43F3152148E500663222 /* Frameworks */,
+				920C43F4152148E500663222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinningSquares;
+			productName = SpinningSquares;
+			productReference = 920C43F6152148E500663222 /* SpinningSquares.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920C43ED152148E500663222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rose-Hulman Institute of Technology";
+			};
+			buildConfigurationList = 920C43F0152148E500663222 /* Build configuration list for PBXProject "SpinningSquares" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 920C43EB152148E500663222;
+			productRefGroup = 920C43F7152148E500663222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920C43F5152148E500663222 /* SpinningSquares */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920C43F4152148E500663222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C4405152148E500663222 /* InfoPlist.strings in Resources */,
+				920C4411152148E500663222 /* RHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920C43F2152148E500663222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920C4407152148E500663222 /* main.m in Sources */,
+				920C440B152148E500663222 /* RHAppDelegate.m in Sources */,
+				920C440E152148E500663222 /* RHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		920C4403152148E500663222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920C4404152148E500663222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		920C440F152148E500663222 /* RHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920C4410152148E500663222 /* en */,
+			);
+			name = RHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920C4412152148E500663222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		920C4413152148E500663222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920C4415152148E500663222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinningSquares/SpinningSquares-Prefix.pch";
+				INFOPLIST_FILE = "SpinningSquares/SpinningSquares-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		920C4416152148E500663222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinningSquares/SpinningSquares-Prefix.pch";
+				INFOPLIST_FILE = "SpinningSquares/SpinningSquares-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920C43F0152148E500663222 /* Build configuration list for PBXProject "SpinningSquares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920C4412152148E500663222 /* Debug */,
+				920C4413152148E500663222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920C4414152148E500663222 /* Build configuration list for PBXNativeTarget "SpinningSquares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920C4415152148E500663222 /* Debug */,
+				920C4416152148E500663222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920C43ED152148E500663222 /* Project object */;
+}
